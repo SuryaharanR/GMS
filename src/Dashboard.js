@@ -54,7 +54,7 @@ class Dashboard extends Component {
     if (this.state.search) {
       data = `${data}&search=${this.state.search}`;
     }
-    axios.get(`http://localhost:2000/get-product`, {
+    axios.get(`https://garbage-se.onrender.com/get-product`, {
       headers: {
         'token': this.state.token
       }
@@ -71,7 +71,7 @@ class Dashboard extends Component {
   }
 
   deleteProduct = (id) => {
-    axios.post('http://localhost:2000/delete-product', {
+    axios.post('https://garbage-se.onrender.com/delete-product', {
       id: id
     }, {
       headers: {
@@ -131,7 +131,7 @@ class Dashboard extends Component {
     file.append('discount', this.state.discount);
     file.append('price', this.state.price);
 
-    axios.post('http://localhost:2000/add-product', file, {
+    axios.post('https://garbage-se.onrender.com/add-product', file, {
       headers: {
         'content-type': 'multipart/form-data',
         'token': this.state.token
@@ -169,7 +169,7 @@ class Dashboard extends Component {
     file.append('discount', this.state.discount);
     file.append('price', this.state.price);
 
-    axios.post('http://localhost:2000/update-product', file, {
+    axios.post('https://garbage-se.onrender.com/update-product', file, {
       headers: {
         'content-type': 'multipart/form-data',
         'token': this.state.token
