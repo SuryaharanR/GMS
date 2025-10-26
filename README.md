@@ -86,5 +86,19 @@ PORT=5000
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/56f5524a-00a1-436c-ab47-a03c42b5c7bc" />
 
 
+### 📅 Roadmap
 
+ Add email and SMS notifications
+
+ Implement trainer scheduling
+
+ Integrate payment gateway
+
+ Improve mobile responsiveness
+
+### 👨‍💻 Contributing
+
+Contributions are welcome!
+If you’d like to improve this project, please fork the repo and submit a pull request.
+For major updates, open an issue to discuss your ideas.
 
