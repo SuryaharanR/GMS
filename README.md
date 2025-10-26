@@ -72,14 +72,35 @@ JWT_SECRET=<your-jwt-secret>
 PORT=5000
 
 📸 Screenshots
-### Home :
-<img width="1920" height="1080" alt="Screenshot (80)" src="https://github.com/user-attachments/assets/0935bb7e-c0eb-4a5a-b058-091b0aa0db32" />
-### Services :
-<img width="1920" height="1080" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/cb2ac36a-27d1-4978-9747-cd44f8b4ecd2" />
-### Payment Gateway:
-<img width="1920" height="1080" alt="Screenshot (82)" src="https://github.com/user-attachments/assets/ee92705c-ed5d-4aa0-b0de-cea78677a24c" />
-### Recycle cart :
-<img width="1920" height="1080" alt="Screenshot (81)" src="https://github.com/user-attachments/assets/9c0e09b5-d862-46d4-a5cf-5d7ae73b4586" />
+---
+
+### 🏠 Home
+<img width="800" alt="Home Page" src="https://github.com/user-attachments/assets/0935bb7e-c0eb-4a5a-b058-091b0aa0db32" />
+
+> The main landing page showcasing gym plans and navigation options.
+
+---
+
+### 🧩 Services
+<img width="800" alt="Services Page" src="https://github.com/user-attachments/assets/cb2ac36a-27d1-4978-9747-cd44f8b4ecd2" />
+
+> Displays available services, plans, and trainer options.
+
+---
+
+### 💳 Payment Gateway
+<img width="800" alt="Payment Gateway" src="https://github.com/user-attachments/assets/ee92705c-ed5d-4aa0-b0de-cea78677a24c" />
+
+> Secure and simple payment processing interface for memberships.
+
+---
+
+### 🔄 Recycle Cart
+<img width="800" alt="Recycle Cart" src="https://github.com/user-attachments/assets/9c0e09b5-d862-46d4-a5cf-5d7ae73b4586" />
+
+> Allows users to recover deleted plans or cart items easily.
+
+---
 
 
 
