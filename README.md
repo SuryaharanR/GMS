@@ -73,16 +73,18 @@ PORT=5000
 
 📸 Screenshots
 ### 🏠 Home
-![Home Screenshot](https://github.com/user-attachments/assets/0935bb7e-c0eb-4a5a-b058-091b0aa0db32)
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3ce3b9cc-aa34-4090-a048-cdc9252be321" />
 
 ### 🧩 Services
-![Services Screenshot](https://github.com/user-attachments/assets/cb2ac36a-27d1-4978-9747-cd44f8b4ecd2)
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/184db8fa-1942-46b7-87fc-9dfc7079178f" />
+
 
 ### 💳 Payment Gateway
-![Payment Gateway Screenshot](https://github.com/user-attachments/assets/ee92705c-ed5d-4aa0-b0de-cea78677a24c)
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6d14b3b4-31c4-48cb-8cde-89ac232ed554" />
 
 ### 🔄 Recycle Cart
-![Recycle Cart Screenshot](https://github.com/user-attachments/assets/9c0e09b5-d862-46d4-a5cf-5d7ae73b4586)
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/56f5524a-00a1-436c-ab47-a03c42b5c7bc" />
+
 
 
 
