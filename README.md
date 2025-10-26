@@ -102,3 +102,25 @@ Contributions are welcome!
 If you’d like to improve this project, please fork the repo and submit a pull request.
 For major updates, open an issue to discuss your ideas.
 
+BONUS:
+---
+### 💳 Payment & Finance Enhancements
+- **Payment History Dashboard** — Show completed and pending transactions for each member.  
+- **Invoice Generation (PDF)** — Generate and download receipts after successful payment.  
+- **Discounts & Coupons** — Allow special promo codes for offers and renewals.  
+- **Revenue Analytics** — Add charts to visualize monthly and yearly income trends.
+
+### ⚙️ Admin Tools & Management
+- **Role-Based Access Control** — Different dashboards for Admin, Trainer, and Member.  
+- **Attendance Management** — Track daily check-ins and class participation.  
+- **Inventory System** — Manage gym equipment, supplements, and products.  
+- **Automated Reminders** — Send renewal or payment alerts via email/SMS.  
+- **Activity Logs** — Track admin or user actions for security and monitoring.
+
+## 🔐 Security & Authentication
+- **Two-Factor Authentication (2FA)** — Add OTP or email verification during login.  
+- **Data Encryption** — Secure sensitive user and payment information.  
+- **Session Timeout / Auto Logout** — Improve account security for inactive users.  
+- **CAPTCHA Verification** — Prevent bot or spam login attempts.
+
+---
