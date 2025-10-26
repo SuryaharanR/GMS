@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# 🌐 GMS — Gym Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live Demo:** [gms-chi.vercel.app](https://gms-chi.vercel.app)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧩 Overview
+**GMS (Gym Management System)** is a modern web application built to simplify gym operations, manage memberships, and track member activities.  
+It provides an intuitive interface for administrators, trainers, and members to efficiently handle registrations, plans, attendance, and payments — all in one platform.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🧑‍💼 **Admin Panel** — Manage members, trainers, and subscriptions  
+- 💪 **Member Dashboard** — View workout plans, payments, and progress  
+- 📅 **Attendance Tracking** — Record and monitor daily check-ins  
+- 💰 **Plan Management** — Add, edit, and assign membership plans  
+- 📊 **Analytics Dashboard** — Visual insights into member data and growth  
+- 🔐 **Secure Authentication** — Role-based login and access  
+- ☁️ **Deployed on Vercel** — Fast, scalable, and reliable hosting  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+### Frontend:
+- React.js (with Hooks & Context API)  
+- Tailwind CSS / Material UI  
+- Axios  
+- React Router  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend:
+- Node.js / Express.js  
+- MongoDB (Mongoose ORM)  
+- JWT Authentication  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Deployment:
+- Frontend: **Vercel**  
+- Backend: **Render / Railway / Vercel Functions**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📦 Installation & Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Follow these steps to run the project locally:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/gms.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Navigate to the project folder
+cd gms
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Install dependencies
+npm install
 
-## Learn More
+# Run the development server
+npm start
+The app will start running at http://localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔐 Environment Variables
+Create a .env file in the root directory and add the following:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
 
-### Code Splitting
+REACT_APP_API_URL=<your-backend-api-endpoint>
+REACT_APP_AUTH_SECRET=<your-jwt-secret>
+If using backend in the same project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MONGO_URI=<your-mongodb-connection-string>
+JWT_SECRET=<your-jwt-secret>
+PORT=5000
